@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+<link rel="stylesheet" type="text/css" href="css/weui.css">
+<link rel="stylesheet" type="text/css" href="css/bbs.css">
+<title>导航页面</title>
+</head>
+<body >
+<div class="container" id="container">
+	<div class="page navbar">
+	  <div class="page__bd" style="height: 100%;">
+		<div class="weui-tab">
+		  <div class="weui-navbar">
+			<div class="weui-navbar__item" id="markItem" onClick="initGrids(this,3);"> 我的收藏 </div>
+			<div class="weui-navbar__item" onClick="initGrids(this,20);"> 版块导航 </div>
+		  </div>
+		  <div class="weui-tab__panel">
+			  <div class="weui-grids" id="allBlock">
+			  </div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+</div>
+<script src="js/weui.min.js"></script>
+<script src="js/bbs.js"></script>
+<script>
+(function(){
+	var obj=document.getElementById("markItem");
+	initGrids(obj,3);
+})()
+</script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bookstore>
+  <book Name="龙族Ⅰ火之晨曦" ISBN="9787807089353">
+    <Author>江南</Author>
+    <totalNum>10</totalNum>
+    <nowNum>8</nowNum>
+  </book>
+  <book Name="龙族II悼亡者之瞳" ISBN="9877549204304">
+    <Author>江南</Author>
+    <totalNum>20</totalNum>
+    <nowNum>18</nowNum>
+  </book>
+  <book Name="龙族Ⅲ黑月之潮" ISBN="9877549223220">
+    <Author>江南</Author>
+    <totalNum>80</totalNum>
+    <nowNum>80</nowNum>
+  </book>
+  <book Name="数据结构（C语言版）" ISBN="9787302147510">
+    <Author>严蔚敏</Author>
+    <totalNum>258</totalNum>
+    <nowNum>256</nowNum>
+  </book>
+  <book Name="天之炽-女武神-" ISBN="9787556110155">
+    <Author>江南</Author>
+    <totalNum>60</totalNum>
+    <nowNum>60</nowNum>
+  </book>
+  <book Name="C++ primer" ISBN="9787121155352">
+    <Author>王刚 杨巨峰</Author>
+    <totalNum>50</totalNum>
+    <nowNum>49</nowNum>
+  </book>
+  <book Name="解忧杂货店" ISBN="9787544270878">
+    <Author>东野圭吾</Author>
+    <totalNum>50</totalNum>
+    <nowNum>47</nowNum>
+  </book>
+  <book Name="活着" ISBN="9787506365437">
+    <Author>余华</Author>
+    <totalNum>50</totalNum>
+    <nowNum>50</nowNum>
+  </book>
+  <book Name="白夜行" ISBN="9787544258609">
+    <Author>东野圭吾</Author>
+    <totalNum>50</totalNum>
+    <nowNum>50</nowNum>
+  </book>
+  <book Name="追风筝的人" ISBN="9787208061644">
+    <Author>Khaled Hosseini</Author>
+    <totalNum>50</totalNum>
+    <nowNum>50</nowNum>
+  </book>
+  <book Name="摆渡人" ISBN="9787550013247">
+    <Author>[英]克莱儿·麦克福尔</Author>
+    <totalNum>50</totalNum>
+    <nowNum>50</nowNum>
+  </book>
+  <book Name="岛上书店" ISBN="9787539971810">
+    <Author>（美）加·泽文</Author>
+    <totalNum>50</totalNum>
+    <nowNum>50</nowNum>
+  </book>
+  <book Name="从你的全世界路过" ISBN="9787540458027">
+    <Author>张嘉佳</Author>
+    <totalNum>50</totalNum>
+    <nowNum>50</nowNum>
+  </book>
+  <book Name="知更鸟女孩" ISBN="9787550016194">
+    <Author>（美）查克·温迪格</Author>
+    <totalNum>50</totalNum>
+    <nowNum>50</nowNum>
+  </book>
+  <book Name="天才在左疯子在右（完整版）" ISBN="9787550263932">
+    <Author>高铭</Author>
+    <totalNum>50</totalNum>
+    <nowNum>50</nowNum>
+  </book>
+</bookstore>

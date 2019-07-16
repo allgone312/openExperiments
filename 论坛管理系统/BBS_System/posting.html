@@ -1,0 +1,115 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+<link rel="stylesheet" type="text/css" href="css/weui.css">
+<link rel="stylesheet" type="text/css" href="css/bbs.css">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<title>版块主页</title>
+</head>
+
+<body>
+<div class="container" id="container">
+	<div class="page navbar">
+	  <div style="padding:10px 2% 10px 2%;background-color:whitesmoke;border-bottom: 1px solid rgb(204, 204, 204);color: #373737;">
+		  <a class="fa fa-chevron-left" href="home.html" style="color:#676767;"></a>
+		  <span style="padding-left: 5%;">版块主题</span>
+	  </div>
+	  <div class="page__bd" style="height: 100%;">
+		<div class="weui-tab">
+		  <div class="weui-navbar">
+			<div class="weui-navbar__item"> 置顶 </div>
+			<div class="weui-navbar__item"> 精华 </div>
+			<div class="weui-navbar__item"> 热门 </div>
+		  </div>
+		  <div class="weui-tab__panel" style="overflow:visible;">
+			<div class="weui-search-bar" id="searchBar">
+				<form class="weui-search-bar__form">
+					<div class="weui-search-bar__box">
+						<i class="weui-icon-search"></i>
+						<input type="search" class="weui-search-bar__input" id="searchInput" placeholder="搜索" required="">
+						<a href="javascript:" class="weui-icon-clear" id="searchClear"></a>
+					</div>
+					<label class="weui-search-bar__label" id="searchText" style="transform-origin: 0px 0px 0px; opacity: 1; transform: scale(1, 1);">
+						<i class="weui-icon-search"></i>
+						<span>搜索</span>
+					</label>
+				</form>
+				<a href="javascript:" class="weui-search-bar__cancel-btn" style="color:black;" id="searchCancel">取消</a>
+			</div>
+			<div class="weui-panel">
+				<div class="weui-panel__bd">
+					<div class="weui-media-box weui-media-box_text" onClick="toPostingContent();">
+						<p class="title-classial-red">[置顶帖]这个一个置顶帖子的标题，主题颜色为古典红色，内容多为版规</p>
+						<ul class="weui-media-box__info">
+							<li class="weui-media-box__info__meta"><i class="fa fa-user-circle"></i> 发帖人昵称</li>
+							<li class="weui-media-box__info__meta weui-media-box__info__meta_extra gotoright"><i class="fa fa-commenting"></i> 23</li>
+							<li class="weui-media-box__info__meta gotoright"><i class="fa fa-clock-o"></i> 3分钟前</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="weui-panel">
+				<div class="weui-panel__bd">
+					<div class="weui-media-box weui-media-box_text">
+						<p class="title-classial-blue">[精品帖]这个一个精品帖子的标题，主题颜色为古典蓝色，内容多为优质内容</p>
+						<ul class="weui-media-box__info">
+							<li class="weui-media-box__info__meta"><i class="fa fa-user-circle"></i> 发帖人昵称</li>
+							<li class="weui-media-box__info__meta weui-media-box__info__meta_extra gotoright"><i class="fa fa-commenting"></i> 23</li>
+							<li class="weui-media-box__info__meta gotoright"><i class="fa fa-clock-o"></i> 5小时前</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="weui-panel">
+				<div class="weui-panel__bd">
+					<div class="weui-media-box weui-media-box_text">
+						<p class="title-classial-black">[普通帖]这个一个普通帖子的标题，内容多种多样</p>
+						<ul class="weui-media-box__info">
+							<li class="weui-media-box__info__meta"><i class="fa fa-user-circle"></i> 发帖人昵称</li>
+							<li class="weui-media-box__info__meta weui-media-box__info__meta_extra gotoright"><i class="fa fa-commenting"></i> 23</li>
+							<li class="weui-media-box__info__meta gotoright"><i class="fa fa-clock-o"></i> 6天前</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="weui-panel">
+				<div class="weui-panel__bd">
+					<div class="weui-media-box weui-media-box_text">
+						<p class="title-classial-black">[图片帖]这个一个内容带有图片的帖子的标题，会选取帖子中的第一张图片显示在帖子内容上</p>
+						<img class="title-img" src="img/gundam.png" alt="图片说明">
+						<ul class="weui-media-box__info">
+							<li class="weui-media-box__info__meta"><i class="fa fa-user-circle"></i> 发帖人昵称</li>
+							<li class="weui-media-box__info__meta weui-media-box__info__meta_extra gotoright"><i class="fa fa-commenting"></i> 23</li>
+							<li class="weui-media-box__info__meta gotoright"><i class="fa fa-clock-o"></i> 3个月前</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="weui-panel">
+				<div class="weui-panel__bd">
+					<div class="weui-media-box weui-media-box_text">
+						<p class="title-classial-gray">[隐藏帖]这个一个隐藏帖子的标题，主题颜色为灰色，内容多为不想让人看到的信息</p>
+						<ul class="weui-media-box__info">
+							<li class="weui-media-box__info__meta"><i class="fa fa-user-circle"></i> 发帖人昵称</li>
+							<li class="weui-media-box__info__meta weui-media-box__info__meta_extra gotoright"><i class="fa fa-commenting"></i> 23</li>
+							<li class="weui-media-box__info__meta gotoright"><i class="fa fa-clock-o"></i> 3分钟前</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+</div>
+<script src="js/weui.min.js"></script>
+<script src="js/bbs.js"></script>
+<script>
+(function(){
+	weui.searchBar('#searchBar');
+})()
+</script>
+</body>
+</html>

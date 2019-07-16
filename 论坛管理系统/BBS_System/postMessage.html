@@ -1,0 +1,84 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+<link rel="stylesheet" type="text/css" href="css/weui.css">
+<link rel="stylesheet" type="text/css" href="css/bbs.css">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<title>发布帖子</title>
+</head>
+
+<body>
+<div class="container" id="container">
+  <div class="page navbar">
+    <div style="padding:10px 2% 10px 2%;background-color:whitesmoke;border-bottom: 1px solid rgb(204, 204, 204);color: #373737;">
+		<a class="fa fa-chevron-left" href="postingContent.html" style="color:#676767;"></a>
+		<span style="padding-left: 5%;">发布帖子</span>
+	</div>
+    <div class="page__bd">
+		<div class="weui-cells weui-cells_form">
+		  <div class="weui-cell">
+			<div class="weui-cell__bd">
+			  <textarea  class="weui-textarea" placeholder="帖子标题" rows="2"></textarea>
+			  <div class="weui-textarea-counter"><span>0</span>/40</div>
+			</div>
+		  </div>
+		</div>
+		<div class="weui-cells weui-cells_form">
+		  <div class="weui-cell">
+			<div class="weui-cell__bd">
+			  <textarea id="re-area" name="rearea"  class="weui-textarea" placeholder="帖子内容" rows="8"></textarea>
+			  <div class="weui-textarea-counter"><span>0</span>/4000</div>
+			</div>
+		  </div>
+		  <div class="weui-cell" style="color: #525252">
+			 <span class="fa fa-align-justify" style="padding-right: 10px;"></span>
+			 <span class="fa fa-align-left" style="padding-right: 10px;"></span>
+			 <span class="fa fa-align-right" style="padding-right: 10px;"></span>
+			 <span class="fa fa-align-center" style="padding-right: 10px;"></span>
+			 <span class="fa fa-bold" style="padding-right: 10px;"></span>
+			 <span class="fa fa-italic" style="padding-right: 10px;"></span>
+			 <span class="fa fa-link" style="padding-right: 10px;"></span>
+			 <span class="fa fa-strikethrough" style="padding-right: 10px;"></span>
+			 <span class="fa fa-table" style="padding-right: 10px;"></span>
+			 <span class="fa fa-underline" style="padding-right: 10px;"></span>
+			 <span class="fa fa-paperclip" style="padding-right: 10px;"></span>
+			 <span class="fa fa-list" style="padding-right: 10px;"></span>
+			 <span class="fa fa-font" style="padding-right: 10px;"></span>
+			 <span class="fa fa-video-camera" style="padding-right: 10px;"></span>
+			 <span class="fa fa-music" style="padding-right: 10px;"></span>
+			 <span class="fa fa-smile-o" style="padding-right: 10px;"></span>
+		  </div>
+		</div>
+		<form class="weui-cells weui-cells_form" action="picUpload" method="post"
+		 id="uploader" enctype="multipart/form-data">
+		 <div class="weui-cell">
+			 <div class="weui-cell__bd">
+				 <div class="weui-uploader">
+					 <div class="weui-uploader__hd">
+						 <p class="weui-uploader__title">图片上传</p>
+						 <div class="weui-uploader__info"><span id="uploadCount">0</span>/5</div>
+					 </div>
+					 <div class="weui-uploader__bd">
+						 <ul class="weui-uploader__files" id="uploaderFiles"></ul>
+						 <div class="weui-uploader__input-box">
+							 <input id="uploaderInput" class="weui-uploader__input" type="file" accept="image/*" capture="camera" multiple=""/>
+						 </div>
+					 </div>
+				 </div>
+			 </div>
+		 </div>
+		</form>
+		<div class="weui-btn-area"> <a class="weui-btn weui-btn_primary" href="postingContent.html">发布帖子</a> </div>
+  </div>
+  </div>
+</div>
+<script src="js/weui.min.js"></script> 
+<script src="js/bbs.js"></script> 
+<script>
+(function(){
+})()
+</script>
+</body>
+</html>

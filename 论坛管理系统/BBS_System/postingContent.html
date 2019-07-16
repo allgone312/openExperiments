@@ -1,0 +1,103 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+<link rel="stylesheet" type="text/css" href="css/weui.css">
+<link rel="stylesheet" type="text/css" href="css/bbs.css">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<title>主题详情</title>
+</head>
+
+<body>
+<span style="background-color: black;opacity: 0.7; width:50px;height: 50px;position: fixed;bottom: 30px;right: 25px;z-index: 999;border-radius:25px;">
+	<span class="fa fa-pencil-square-o" style="color:#EFEFEF;font-size: 30px;padding: 12px 8px 8px 12px;" onClick="postMessage();"></span>
+</span>
+<div class="container" id="container">
+  <div class="page navbar">
+    <div style="padding:10px 2% 10px 2%;background-color:whitesmoke;border-bottom: 1px solid rgb(204, 204, 204);color: #373737;">
+		<a class="fa fa-chevron-left" href="posting.html" style="color:#676767;"></a>
+		<span style="padding-left: 5%;">主题详情</span>
+		<span style="float:right;background: #373737;border-radius: 50px;color: white;font-size: 13px;padding: 3px 8px;">只看楼主</span>
+	</div>
+    <div class="page__bd">
+      <div class="weui-panel">
+        <div class="weui-panel__hd">
+			<p class="title-classial-black" style="font-size: 16px;">[一个帖子]这是一个帖子的标题，这里演示一下，看来多行是没有问题的</p>
+		</div>
+        <div class="weui-panel__bd">
+		  <a href="account.html" class="weui-media-box weui-media-box_appmsg">
+            <div class="weui-media-box__hd"><img class="weui-media-box__thumb" src="img/head-3.jpg" alt="" style="border-radius: 50px;"> </div>
+		    <div class="weui-media-box__bd" style="overflow: auto;">
+			  <div style="overflow: auto;">
+			    <span class="weui-media-box__title">龙猫</span>
+			    <span style="float: right;color:#505050;font-size: 14px;">楼主</span>
+			  </div>
+			  <div class="weui-media-box__desc" style="white-space: pre;">级别:用户    金币:1</div>
+		    </div>
+          </a>
+		  <div class="weui-media-box">
+			<article class="weui-article" style="padding: 0;">
+				<p style="font-weight: bold;">这是一个粗体字</p>
+				<p><s>这是一个删除线字</s></p>
+				<p>
+					这是帖子的内容，很有意思的内容。这是帖子的内容，很有意思的内容。这是帖子的内容，很有意思的内容。这是帖子的内容，很有意思的内容。
+				</p>
+				<p>
+					<img src="img/gundam.png" alt="" style="width:100%;">
+				</p>
+				<p>
+					这是帖子的内容，很有意思的内容。这是帖子的内容，很有意思的内容。这是帖子的内容，很有意思的内容。这是帖子的内容，很有意思的内容。
+				</p>
+			</article>
+		   </div>
+		 </div>
+		 <div class="weui-cell" style="padding: 5px 20px;color:#979797;">
+			<span class="fa fa-thumbs-o-up" style="padding-right: 4px;"></span>
+			<span style="padding-right: 12px;">233</span>
+		    <span class="fa fa-thumbs-o-down" style="padding-right: 4px;"></span>
+	   	    <span>0</span>
+			<span class="fa fa-commenting" style="position: absolute;right: 20px;"></span>
+		 </div>
+      </div>
+		
+      <div class="weui-panel">
+        <div class="weui-panel__bd">
+		  <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+            <div class="weui-media-box__hd"><img class="weui-media-box__thumb" src="img/head-1.jpg" alt="" style="border-radius: 50px;"> </div>
+		    <div class="weui-media-box__bd" style="overflow: auto;">
+			  <div style="overflow: auto;">
+			    <span class="weui-media-box__title">伊丽莎白酱</span>
+			    <span style="float: right;color:#505050;font-size: 14px;">1楼</span>
+			  </div>
+			  <div class="weui-media-box__desc" style="white-space: pre;">级别:用户    金币:1</div>
+		    </div>
+          </a>
+		  <div class="weui-media-box">
+			<article class="weui-article" style="padding: 0;">
+				<p>
+					这是回复的内容，这是回复的内容，这是回复的内容，这是回复的内容，这是回复的内容。
+				</p>
+			</article>
+		   </div>
+		 </div>
+		 <div class="weui-cell" style="padding: 5px 20px;color:#525252;">
+			<span class="fa fa-thumbs-o-up" style="padding-right: 4px;"></span>
+			<span style="padding-right: 12px;">233</span>
+		    <span class="fa fa-thumbs-o-down" style="padding-right: 4px;"></span>
+	   	    <span>0</span>
+			<span class="fa fa-commenting" style="position: absolute;right: 20px;"></span>
+		 </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/weui.min.js"></script> 
+<script src="js/bbs.js"></script> 
+<script>
+(function(){
+	console.log(“我好菜啊);
+})()
+</script>
+</body>
+</html>

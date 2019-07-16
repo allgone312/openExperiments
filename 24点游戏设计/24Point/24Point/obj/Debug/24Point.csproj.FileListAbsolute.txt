@@ -1,0 +1,9 @@
+E:\作业\大四\开放性实验\24Point\24Point\bin\Debug\24Point.exe.config
+E:\作业\大四\开放性实验\24Point\24Point\obj\Debug\24Point.csprojResolveAssemblyReference.cache
+E:\作业\大四\开放性实验\24Point\24Point\obj\Debug\_24Point.Form1.resources
+E:\作业\大四\开放性实验\24Point\24Point\obj\Debug\_24Point.Properties.Resources.resources
+E:\作业\大四\开放性实验\24Point\24Point\obj\Debug\24Point.csproj.GenerateResource.Cache
+E:\作业\大四\开放性实验\24Point\24Point\bin\Debug\24Point.exe
+E:\作业\大四\开放性实验\24Point\24Point\bin\Debug\24Point.pdb
+E:\作业\大四\开放性实验\24Point\24Point\obj\Debug\24Point.exe
+E:\作业\大四\开放性实验\24Point\24Point\obj\Debug\24Point.pdb
